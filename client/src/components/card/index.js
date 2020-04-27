@@ -1,22 +1,31 @@
-import React from 'react';
+import React from "react";
 import "./style.css";
 
-
-
 function Card(props) {
+  return (
+    <div className="card">
+            <h2>{props.Ailment} </h2>
+      <div className="content">
+        <ul>
+          <li>
+            <strong>{props.Method}</strong> 
+          </li>
+          <li>
+            <strong>{props.Treatment}</strong> 
+          </li>
+          <li>
+            <strong>{props.Age}</strong> 
+          </li>
+          <li>
+            <strong>{props.ActivityLevel}</strong> 
+          </li>
+          <li>
+            <strong>{props.Source}</strong> 
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+}
 
-    return (
-        
-  
-                    <div className="card bg-secondary">
-                        
-                    <h1 classNme = "card-title">{props.heading}</h1>
-                    <div className ="card-body">Some text</div>
-                    <a href={props.heading} className="btn btn-primary">Go somewhere</a>
-                    </div>
-
-         
-            )
-    }
-
-    export default Card
+export default Card;

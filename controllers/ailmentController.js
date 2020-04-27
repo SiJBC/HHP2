@@ -7,6 +7,13 @@ module.exports = {
         .catch(err => res.status(422).json(err))
     },
 
+    findHeadacheTreatment1: function(req,res){
+
+        db.Ailments.find({"Ailment": "Headache"}).find({"Treatment":"tablet1"})
+        .then(dbModel => res.json(dbModel))
+        .catch(err => res.status(422).json(err))
+    },
+
     findHeadachePharm: function(req,res){
         db.Ailments.find({"Ailment": "Headache"}).find({"Method":"Pharmaceutical"})
         .then(dbModel => res.json(dbModel))
@@ -44,8 +51,8 @@ module.exports = {
     },
 
     findByEmail: function(req, res){
-        db.Ailments.find({"email": req.params.email})
-        console.log(req.parmas.email)
+        console.log(req.params)
+        db.Ailments.find({"Email": req.params.email})
         .then(dbModel => res.json(dbModel)) 
         .catch(err => res.status(422).json(err))
     },

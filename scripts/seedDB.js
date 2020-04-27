@@ -9,19 +9,73 @@ mongoose.connect(
 const ailmentSeed = [
     {
         Ailment: "Headache",
-        Method: "Pharmaceutical"
+        Method: "Pharmaceutical",
+        Treatment: "tablet1",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
     },
     {
         Ailment: "Headache",
-        Method: "Non-Pharmaceutical"
+        Method: "Pharmaceutical",
+        Treatment: "tablet1",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
     },
     {
-        Ailment: "Backpain",
-        Method: "Pharmaceutical"
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "tablet1",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
     },
     {
-        Ailment: "Backpain",
-        Method: "Non-Pharmaceutical"
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "tablet1",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "tablet1",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "tablet1",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "tablet1",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
     },
 ]
 

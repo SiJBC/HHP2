@@ -4,6 +4,9 @@ const ailmentController = require ("../../controllers/ailmentController")
 router.route("/headache")
     .get(ailmentController.findHeadache)
 
+router.route("/headache/treatment1")
+    .get(ailmentController.findHeadacheTreatment1)
+
 router.route("/headache/pharm")
     .get(ailmentController.findHeadachePharm)
 

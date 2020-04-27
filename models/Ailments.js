@@ -16,11 +16,9 @@ const ailmentSchema = new Schema({
   Story: { type: String, required: false },
   // User can share sources or references
   Source: { type: String, required: false },
-  // jwt 
-  Code: { type: String, required: false },
-
+  // Default added
   Date: { type: Date, default: Date.now },
-
+// from local storage request
   Email:{type: String,required: false }
 });
 
