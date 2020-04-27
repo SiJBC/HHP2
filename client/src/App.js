@@ -26,6 +26,8 @@ import Alzheimers from "./components/ailments/Headache";
 import HeartDisease from "./components/ailments/Headache";
 import Form from "./components/Form"
 import "./App.css";
+import UserPortal from "./components/UserPortal"
+import HeadachePharmForm from "./components/Form/HeadachePharmForm"
 
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {
@@ -67,6 +69,8 @@ class App extends Component {
             <Route exact path ="/Alzheimers" component={Alzheimers} />
             <Route exact path ="/HeartDisease" component={HeartDisease} />
             <Route exact path ="/Form" component ={Form} />
+            <Route exact path ="/UserPortal" component ={UserPortal} />
+            <Route exact path = "/HeadachePharmForm" component ={HeadachePharmForm} />
             <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
             </Switch>

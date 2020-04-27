@@ -36,7 +36,8 @@ function Form() {
     // Handles updating component state when the user types into the input field
     function handleInputChange(event) {
       const { name, value } = event.target;
-      setFormObject({...formObject, Email:localStorage.getItem("userEmail"),  [name]: value})
+      setFormObject({...formObject, Email:localStorage.getItem("userEmail"),  
+      [name]: value})
     };
   
     // When the form is submitted, use the API.saveBook method to save the book data
@@ -45,7 +46,6 @@ function Form() {
         
       event.preventDefault();
      
-      console.log()
         API.postAilment({
           Ailment: formObject.Ailment,
           Method: formObject.Method,

@@ -30,7 +30,7 @@ export  default {
     },
 
     returnByEmail(email){
-        return axios.get("/api/ailments/?email=" + email)
+        return axios.get("/api/ailments/" + email)
     }
 }
 
