@@ -14,20 +14,21 @@ import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/dashboard/Dashboard";
-import Headache from "./components/ailments/Headache";
-import Diabetes from "./components/ailments/Diabetes";
-import SkinDisorders from "./components/ailments/SkinDisorders";
-import JointPain from "./components/ailments/Joint-Pain";
-import BackProblems from "./components/ailments/BackProblems";
-import HighCholesterol from "./components/ailments/Headache";
-import BreathingDifficulties from "./components/ailments/Headache";
-import Anxiety from "./components/ailments/Headache";
-import Alzheimers from "./components/ailments/Headache";
-import HeartDisease from "./components/ailments/Headache";
 import Form from "./components/Form"
 import "./App.css";
-import UserPortal from "./components/UserPortal"
 import HeadachePharmForm from "./components/Form/HeadachePharmForm"
+import HeadacheNoPharmForm from "./components/Form/HeadacheNoPharmForm"
+import AlzheimersNoPharmForm from "./components/Form/AlzheimersNoPharmForm"
+import AlzheimersPharmForm from "./components/Form/AlzheimersPharmForm"
+import BackProblemsPharmForm from "./components/Form/BackProblemsPharmForm"
+import BackProblemsNoPharmForm from "./components/Form/BackProblemsNoPharmForm"
+import DiabetesPharmForm from "./components/Form/DiabetesPharmForm"
+import DiabetesNoPharmForm from "./components/Form/DiabetesNoPharmForm"
+import JointPainsPharmForm from "./components/Form/JointPainsPharmForm"
+import JointPainsNoPharmForm from "./components/Form/JointPainsNoPharmForm"
+import SkinDisordersNoPharmForm from "./components/Form/SkinDisordersNoPharmForm"
+import SkinDisordersPharmForm from "./components/Form/SkinDisordersPharmForm"
+
 
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {
@@ -58,21 +59,23 @@ class App extends Component {
             <Route exact path="/" component={Landing} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
-            <Route exact path ="/Headache" component={Headache} />
-            <Route exact path ="/Diabetes" component={Diabetes} />
-            <Route exact path ="/SkinDisorders" component={SkinDisorders} />
-            <Route exact path ="/JointPain" component={JointPain} />
-            <Route exact path ="/BackProblems" component={BackProblems} />
-            <Route exact path ="/HighCholesterol" component={HighCholesterol} />
-            <Route exact path ="/BreathingDifficulties" component={BreathingDifficulties} />
-            <Route exact path ="/Anxiety" component={Anxiety} />
-            <Route exact path ="/Alzheimers" component={Alzheimers} />
-            <Route exact path ="/HeartDisease" component={HeartDisease} />
             <Route exact path ="/Form" component ={Form} />
-            <Route exact path ="/UserPortal" component ={UserPortal} />
-            <Route exact path = "/HeadachePharmForm" component ={HeadachePharmForm} />
+           
             <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
+              {/* <AilmentForms/> */}
+              <Route exact path = "/dashboard/Headachepharmform" component ={HeadachePharmForm} />
+              <Route exact path = "/dashboard/Headachenopharmform" component ={HeadacheNoPharmForm} />
+              <Route exact path = "/dashboard/Alzheimersnopharmform" component ={AlzheimersNoPharmForm} />
+              <Route exact path = "/dashboard/Alzheimerspharmform" component ={AlzheimersPharmForm} />
+              <Route exact path = "/dashboard/Backproblemspharmform" component = {BackProblemsPharmForm} />
+              <Route exact path = "/dashboard/Backproblemsnopharmform" component = {BackProblemsNoPharmForm} />
+              <Route exact path = "/dashboard/Diabetespharmform" component ={DiabetesPharmForm} />
+              <Route exact path = "/dashboard/Diabetesnopharmform" component ={DiabetesNoPharmForm} />
+              <Route exact path = "/dashboard/Jointpainspharmform" component ={JointPainsPharmForm} />
+              <Route exact path = "/dashboard/Jointpainsnopharmform" component ={JointPainsNoPharmForm} />
+              <Route exact path = "/dashboard/Skindisordersnopharmform" component ={SkinDisordersNoPharmForm} />
+              <Route exact path = "/dashboard/Skindisorderspharmform" component ={SkinDisordersPharmForm} />
             </Switch>
           </div>
         </Router>

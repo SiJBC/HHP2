@@ -1,9 +1,12 @@
 import React from "react";
 import "./style.css";
+import {Col} from 'reactstrap'
 
 function Card(props) {
   return (
+    <Col> 
     <div className="card">
+    
             <h2>{props.Ailment} </h2>
       <div className="content">
         <ul>
@@ -20,11 +23,12 @@ function Card(props) {
             <strong>{props.ActivityLevel}</strong> 
           </li>
           <li>
-            <strong>{props.Source}</strong> 
+           <button><a href src ={`${props.Source}`}> {props.Source} </a> </button> 
           </li>
         </ul>
       </div>
     </div>
+    </Col>
   );
 }
 

@@ -12,66 +12,52 @@ function Landing(props) {
 
   const toggle = () => setIsOpen(!isOpen);
 
-  
-    return (
-      <div>
-        <Hero />
-        <div className = "row justify-content-center">
+
+  return (
+    <div>
+      <Hero />
+      <div className="row justify-content-left">
         <div>
           <div>
-          <Alert className = "justify-content-center" color="info">
-        
-        <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Head Ache</Button>
-        <Collapse isOpen={isOpen}>
-            <div className ="card">
-              <div className ="card-body">Study consists of 5 user entries and began on 12/12/19 </div>
-            <a href="/headache" className="btn btn-primary">See headache data</a> </div></Collapse>
-      </Alert>
+            <Alert className="justify-content-center" color="info">
+              <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Head Ache</Button>
+            </Alert>
           </div>
 
-      <Alert color="info">
-       Anxiety
+          <Alert color="info">
+          <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Anxiety</Button>
       </Alert>
-      <Alert color="info">
-        Back Problems
+          <Alert color="info">
+          <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Back Problems</Button>
       </Alert>
-      <Alert color="info">
-        Breathing Difficulties
+          <Alert color="info">
+          <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Respiratory Issues</Button>
       </Alert>
-      <Alert color="info">
-        Diabetes
+          <Alert color="info">
+          <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Diabetes</Button>
       </Alert>
-      <Alert color="info">
-        Headache
+          <Alert color="info">
+          <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Joint Pain</Button>
       </Alert>
-      <Alert color="info">
-      Heart Disease
+          <Alert color="info">
+          <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Skin Disorders</Button>
       </Alert>
-      <Alert color="info">
-        High Cholesterol
-      </Alert>
-      <Alert color="info">
-        Joint Pain
-      </Alert>
-      <Alert color="info">
-        Skin Disorders
-      </Alert>
-    </div>
-        
-        
+        </div>
+
+
         {/* {this.state.ailments.map(ailments => (
           <Card
           key = {ailments.id}
           heading = {ailments.heading}
           />
         ))} */}
-        </div>
-
-        <Footer />
-
       </div>
-    );
-  }
+
+      <Footer />
+
+    </div>
+  );
+}
 
 
 export default Landing;

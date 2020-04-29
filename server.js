@@ -38,18 +38,13 @@ app.use(passport.initialize());
 // Passport config
 require("./config/passport")(passport);
 
-// Routes
+// Routes 
 app.use("/api/users", users);
 app.use("/api/Ailments", Ailments );
 
 app.get('*', (request, response) => {
 	response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
-
-// app.get('*', function (req, res) {
-//   const index = path.join(__dirname, 'build', 'index.html');
-//   res.sendFile(index);
-// });
 
 const port = process.env.PORT || 5000;
 

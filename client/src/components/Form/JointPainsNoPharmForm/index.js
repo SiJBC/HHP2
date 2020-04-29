@@ -1,16 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Col, Row, Container } from "../../Grid";
 import {Treatment, Age, ActivityLevel, UserStory, Source, FormBtn} from "./userForm.js"
 import API from "../../../utils/API";
 import Jumbotron from "../../Jumbotron";
 import AilmentForms from "../../dashboard/AilmentForms"
-import {Button} from 'reactstrap'
 
 
 // component for users to fill out the post for headache and pharmaceutical
 
 
-function headachePharmForm(){
+function JointPainsNoPharm(){
     // we are establishing a state object for capturing the values from the form
 const [formObject, setFormObject] = useState({})
 
@@ -34,8 +33,8 @@ function handleFormSubmit(event) {
     event.preventDefault();
    
       API.postAilment({
-          Ailment: "Headache",
-        Method: "Pharmaceutical",
+          Ailment: "Joint-Pains",
+        Method: "No-Pharmaceutical",
         Email: localStorage.getItem("userEmail"),
         Treatment: formObject.Treatment,
         Age: formObject.Age,
@@ -71,17 +70,10 @@ function handleFormSubmit(event) {
 return(
     <Container fluid>
         <Row>
-
-            <AilmentForms />
-            <Col size="md-4">
-          
-
-          </Col>
- 
-          
-            <Col size="md-7">
+            <AilmentForms/>
+            <Col size="md-6">
                 <Jumbotron>
-                    <h1>Headache treated with pharmaceuticals 
+                    <h1>Join Pains treated without pharmaceutical form
                     </h1>
                     <h2>Thank you for participating in the study</h2>
                 </Jumbotron>
@@ -119,4 +111,4 @@ return(
 
 }
 
-export default headachePharmForm
+export default JointPainsNoPharm
