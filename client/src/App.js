@@ -9,6 +9,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 
 import Navbar from "./components/layout/Navbar";
+import Footer from "./components/Footer"
 import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
@@ -28,6 +29,7 @@ import JointPainsPharmForm from "./components/Form/JointPainsPharmForm"
 import JointPainsNoPharmForm from "./components/Form/JointPainsNoPharmForm"
 import SkinDisordersNoPharmForm from "./components/Form/SkinDisordersNoPharmForm"
 import SkinDisordersPharmForm from "./components/Form/SkinDisordersPharmForm"
+import Headache from "./components/Headache"
 
 
 // Check for token to keep user logged in
@@ -76,8 +78,11 @@ class App extends Component {
               <Route exact path = "/dashboard/Jointpainsnopharmform" component ={JointPainsNoPharmForm} />
               <Route exact path = "/dashboard/Skindisordersnopharmform" component ={SkinDisordersNoPharmForm} />
               <Route exact path = "/dashboard/Skindisorderspharmform" component ={SkinDisordersPharmForm} />
+              <Route exact path ="/headache" component = {Headache} />
             </Switch>
+            <Footer />
           </div>
+
         </Router>
 
       </Provider>

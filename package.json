@@ -31,6 +31,8 @@
     "react-collapsible": "^2.7.0",
     "react-dom": "^16.13.1",
     "reactstrap": "^8.4.1",
-    "validator": "^10.9.0"
+    "validator": "^10.9.0",
+    "@fortawesome/fontawesome-free": "5.10.2",
+    "jquery": "3.4.1"
   }
 }
