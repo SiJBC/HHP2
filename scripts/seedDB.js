@@ -10,7 +10,267 @@ const ailmentSeed = [
     {
         Ailment: "Headache",
         Method: "Pharmaceutical",
-        Treatment: "tablet1",
+        Treatment: "Fioricet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Fioricet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Fioricet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Fioricet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Fioricet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Caffeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Caffeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Caffeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Caffeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Caffeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Caffeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Caffeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Caffeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Caffeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Caffeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "321@321.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Caffeine",
         Age: "30-40",
         ActivityLevel: "Do not exercise",
         Story:"Once upon a time",
@@ -25,22 +285,12 @@ const ailmentSeed = [
         ActivityLevel: "Do not exercise",
         Story:"Once upon a time",
         Source: "https://somethingsomething.com",
-        Email: "321@321.com"
+        Email: "123@123.com"
     },
     {
         Ailment: "Headache",
         Method: "Pharmaceutical",
-        Treatment: "tablet1",
-        Age: "30-40",
-        ActivityLevel: "Do not exercise",
-        Story:"Once upon a time",
-        Source: "https://somethingsomething.com",
-        Email: "321@321.com"
-    },
-    {
-        Ailment: "Headache",
-        Method: "Pharmaceutical",
-        Treatment: "tablet1",
+        Treatment: "Advil",
         Age: "30-40",
         ActivityLevel: "Do not exercise",
         Story:"Once upon a time",
@@ -50,7 +300,7 @@ const ailmentSeed = [
     {
         Ailment: "Headache",
         Method: "Pharmaceutical",
-        Treatment: "tablet1",
+        Treatment: "Advil",
         Age: "30-40",
         ActivityLevel: "Do not exercise",
         Story:"Once upon a time",
@@ -60,7 +310,7 @@ const ailmentSeed = [
     {
         Ailment: "Headache",
         Method: "Pharmaceutical",
-        Treatment: "tablet1",
+        Treatment: "Advil",
         Age: "30-40",
         ActivityLevel: "Do not exercise",
         Story:"Once upon a time",
@@ -70,13 +320,951 @@ const ailmentSeed = [
     {
         Ailment: "Headache",
         Method: "Pharmaceutical",
-        Treatment: "tablet1",
+        Treatment: "Advil",
         Age: "30-40",
         ActivityLevel: "Do not exercise",
         Story:"Once upon a time",
         Source: "https://somethingsomething.com",
         Email: "123@123.com"
     },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Advil",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Advil",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Advil",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Advil",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Advil",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Advil",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Pharmaceutical",
+        Treatment: "Advil",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Nutraceuticals",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Nutraceuticals",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Nutraceuticals",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Nutraceuticals",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Acupuncture",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Acupuncture",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Acupuncture",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Acupuncture",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Acupuncture",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Neuromodulation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Neuromodulation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Neuromodulation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Neuromodulation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Neuromodulation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Neuromodulation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Neuromodulation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Neuromodulation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "STS",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "STS",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "STS",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "STS",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "STS",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "STS",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "STS",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "STS",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "STS",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "STS",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+    {
+        Ailment: "Headache",
+        Method: "Non-Pharmaceutical",
+        Treatment: "STS",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: "123@123.com"
+    },
+
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Tylenol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Tylenol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Tylenol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Tylenol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Tylenol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Tylenol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Tylenol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Tylenol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Opioids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Opioids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Opioids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Opioids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Opioids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Opioids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Corticosteroids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Corticosteroids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Corticosteroids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Corticosteroids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Corticosteroids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Corticosteroids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Corticosteroids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Pharmaceutical",
+        Treatment: "Corticosteroids",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Guided-relaxation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Guided-relaxation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Guided-relaxation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Guided-relaxation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Guided-relaxation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Guided-relaxation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Guided-relaxation",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Acupuncture",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Acupuncture",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Acupuncture",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Acupuncture",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Acupuncture",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Acupuncture",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Physical-therapy",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Physical-therapy",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Physical-therapy",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Physical-therapy",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Physical-therapy",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Physical-therapy",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Physical-therapy",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Physical-therapy",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Backpain",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Physical-therapy",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    
+    
+    
+    
+    
+    
 ]
 
 db.Ailments

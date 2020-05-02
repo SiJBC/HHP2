@@ -6,26 +6,24 @@ function Card(props) {
   return (
     <Col> 
     <div className="card">
-    
-            <h2>{props.Ailment} </h2>
+    <h5 className="card-title">{props.Ailment}</h5>
       <div className="content">
-        <ul>
-          <li>
-            <strong>{props.Method}</strong> 
-          </li>
-          <li>
-            <strong>{props.Treatment}</strong> 
-          </li>
-          <li>
-            <strong>{props.Age}</strong> 
-          </li>
-          <li>
-            <strong>{props.ActivityLevel}</strong> 
-          </li>
-          <li>
-           <button><a href src ={`${props.Source}`}> {props.Source} </a> </button> 
-          </li>
-        </ul>
+      <p className="card-text">
+      {props.Method}
+      </p>
+      <p className="card-text">
+      {props.Treatment}
+      </p>
+      <p className="card-text">
+      {props.Age}
+      </p>
+      <p className="card-text">
+      {props.ActivityLevel}
+      </p>
+      <p className="card-text">
+      {props.Story}
+      </p>
+      <a href src ={`${props.Source}`} className ="card-link"> link to source </a> 
       </div>
     </div>
     </Col>

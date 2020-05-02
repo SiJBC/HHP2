@@ -30,6 +30,7 @@ import JointPainsNoPharmForm from "./components/Form/JointPainsNoPharmForm"
 import SkinDisordersNoPharmForm from "./components/Form/SkinDisordersNoPharmForm"
 import SkinDisordersPharmForm from "./components/Form/SkinDisordersPharmForm"
 import Headache from "./components/Headache"
+import Backpain from "./components/Backpain"
 
 
 // Check for token to keep user logged in
@@ -62,6 +63,8 @@ class App extends Component {
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
             <Route exact path ="/Form" component ={Form} />
+            <Route exact path ="/headache" component = {Headache} />
+            <Route exact path ="/backpain" component = {Backpain} />
            
             <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
@@ -78,7 +81,7 @@ class App extends Component {
               <Route exact path = "/dashboard/Jointpainsnopharmform" component ={JointPainsNoPharmForm} />
               <Route exact path = "/dashboard/Skindisordersnopharmform" component ={SkinDisordersNoPharmForm} />
               <Route exact path = "/dashboard/Skindisorderspharmform" component ={SkinDisordersPharmForm} />
-              <Route exact path ="/headache" component = {Headache} />
+              
             </Switch>
             <Footer />
           </div>

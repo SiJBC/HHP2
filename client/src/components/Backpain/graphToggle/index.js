@@ -3,6 +3,7 @@ import React from 'react';
 
 function graphToggle(props){
 
+  
 
 
 
@@ -15,8 +16,8 @@ function graphToggle(props){
          Non-Pharmaceuticals
         </a>
         <a
-          href="#pharmaceuticals"
-          onClick={() => props.handleGraphChange("Pharmaceuticals")}
+          href="#pharmaceutical"
+          onClick={() => props.handleGraphChange("Pharmaceutical")}
           className={props.currentGraph === "pharmaceuticals" ? "nav-link active" : "nav-link"}
         >
         Pharmaceuticals

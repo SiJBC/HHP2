@@ -6,10 +6,10 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
  
 function NonPharmaceuticals(props) {
 
+	const [massage, setMassage] = useState([])
+	const [guidedRelaxation, setGuidedRelaxation] = useState([])
 	const [acupuncture, setAcupuncture] = useState([])
-	const [nutraceuticals, setNutraceuticals] = useState([])
-	const [nin, setNin] = useState([])
-	const [sts, setSts] = useState([])
+	const [physicalTherapy, setPhysicalTherapy] = useState([])
 
 
 	useEffect(() => {
@@ -20,26 +20,26 @@ function NonPharmaceuticals(props) {
 
 	function loadPharmaceuticalslength(){
 		
-		API.getHeadacheNoPharm()
+		API.getBackpainNoPharm()
 		.then(Pharmres =>   {
-			returnNutraceuticals(Pharmres.data)
-			returnAcupuncture (Pharmres.data)
-			returnNin(Pharmres.data)
-			returnTCNS(Pharmres.data)
+			returnMassage(Pharmres.data)
+			returnGuidedRelaxation(Pharmres.data)
+			returnAcupuncture(Pharmres.data)
+			returnPhysicalTherapy(Pharmres.data)
 		}         
 	)} 
 
-	function returnNutraceuticals(treatments){
+	function returnGuidedRelaxation(treatments){
 		var i;
-		var Nutraceuticals = []
+		var guidedRelaxation= []
 		for (i=0; i< treatments.length; i++)
 		{
-		if(treatments[i].Treatment === "Nutraceuticals"){
-				Nutraceuticals.push(i)
+		if(treatments[i].Treatment === "Guided-relaxation"){
+				guidedRelaxation.push(i)
 			}
 		}
-		console.log("Nutraceuticals is " + Nutraceuticals.length)
-		setNutraceuticals(Nutraceuticals)
+		console.log("Guided Relaxation is " + guidedRelaxation.length)
+		setGuidedRelaxation(guidedRelaxation)
 	}
 
 	function returnAcupuncture(treatments){
@@ -55,30 +55,30 @@ function NonPharmaceuticals(props) {
 		setAcupuncture(Acupuncture)
 	}
 
-	function returnNin(treatments){
+	function returnMassage(treatments){
 		var i;
-		var Nin = []
+		var Massage = []
 		for (i=0; i< treatments.length; i++)
 		{
-		if(treatments[i].Treatment === "Neuromodulation"){
-				Nin.push(i)
+		if(treatments[i].Treatment === "Massage"){
+				Massage.push(i)
 			}
 		}
-		console.log("Nin is " + Nin.length)
-		setNin(Nin)
+		console.log("Massage is " + Massage.length)
+		setMassage(Massage)
 	}
 
-	function returnTCNS(treatments){
+	function returnPhysicalTherapy(treatments){
 		var i;
-		var TCNS = []
+		var PhysicalTherapy = []
 		for (i=0; i< treatments.length; i++)
 		{
-		if(treatments[i].Treatment === "STS"){
-				TCNS.push(i)
+		if(treatments[i].Treatment === "Physical-therapy"){
+				PhysicalTherapy.push(i)
 			}
 		}
-		console.log("Nin is " + TCNS.length)
-		setSts(TCNS)
+		console.log("Nin is " + PhysicalTherapy.length)
+		setPhysicalTherapy(PhysicalTherapy)
 	}
 
 
@@ -99,10 +99,10 @@ function NonPharmaceuticals(props) {
 			data: [{
 				type: "bar",
 				dataPoints: [
-					{ y:  nutraceuticals.length, label: "Nutraceuticals" },
+					{ y:  massage.length, label: "Massage" },
+					{ y:  guidedRelaxation.length, label: "Guided-Relaxation" },
 					{ y:  acupuncture.length, label: "Acupuncture" },
-					{ y:  nin.length, label: "Neuromodulation" },
-					{ y:  sts.length, label: "STS" },
+					{ y:  physicalTherapy.length, label: "Physical-Therapy" },
 				]
 			}]
 		}

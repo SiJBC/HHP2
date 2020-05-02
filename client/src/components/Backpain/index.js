@@ -3,7 +3,7 @@ import React from 'react';
 import Hero from "../Hero"
 import Graph from "./graph"
 import UserCard from "./userCards"
-import HeadacheImage from "../../assets/img/headache.jpeg"
+import BackPainImage from "../../assets/img/backproblems.jpeg"
 import Card from "../card"
 
 
@@ -17,7 +17,7 @@ function HeadAche() {
         <div>
             <Hero />
             <div className = "row justify-content-center">
-            <img src={HeadacheImage} alt="headache" />
+            <img src={BackPainImage} alt="headache" />
             </div>
         
             <section>
@@ -26,9 +26,9 @@ function HeadAche() {
                 <div class="col-lg-8 col-md-10 mx-auto">
                   <br></br>
                     <div className="post-heading">
-                        <h1>The Healthy Human project Headache study
+                        <h1>The Healthy Human project back pain study
                         </h1>
-                        <h2 className="subheading">Headaches can be a sign of a fatigue, caffeine withdrawal(seriously), stress or something more serious</h2>
+                        <h2 className="subheading">Back pain can be caused by many different things; tight muscles, accute injuruies bad posture etc.</h2>
                     </div>
                 </div>
              

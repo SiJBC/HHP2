@@ -53,7 +53,7 @@ function Landing(props) {
         ))} */}
       </div>
 
-      <Footer />
+    
 
     </div>
   );

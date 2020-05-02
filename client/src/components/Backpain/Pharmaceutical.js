@@ -6,10 +6,10 @@ var CanvasJS = CanvasJSReact.CanvasJS;
  
 function Pharmaceuticals (props) {
 
-	const [fioricet, setFioricet] = useState([])
+	const [corticosteroids, setCorticosteroids] = useState([])
 	const [ibuprofen, setIbuprofen] = useState([])
-	const [caffeine, setCaffeine] = useState([])
-	const [advil, setAdvil] = useState([])
+	const [opioids, setOpioids] = useState([])
+	const [tylenol, setTylenol] = useState([])
 
 	useEffect(() => {
 		loadPharmaceuticalslength()
@@ -22,28 +22,28 @@ function Pharmaceuticals (props) {
 			// Fioricet  
 	function loadPharmaceuticalslength(){
 		
-		API.getHeadachePharm()
+		API.getBackpainPharm()
 		.then(Pharmres =>   {
-			returnFioricet(Pharmres.data)
+			returnCorticosteroids(Pharmres.data)
 			returnIbuprofen(Pharmres.data)
-			returnCaffeine(Pharmres.data)
-			returnAdvil(Pharmres.data)
+			returnOpioids(Pharmres.data)
+			returnTylenol(Pharmres.data)
 		}         
 	)} 
 
 
-	function returnFioricet(treatments) {
+	function returnCorticosteroids(treatments) {
 		
 		var i;
-		var Fioricet = []
+		var Corticosteroids = []
 		for ( i=0; i <treatments.length; i++){
 
-			if(treatments[i].Treatment === "Fioricet"){
-				Fioricet.push(i)
+			if(treatments[i].Treatment === "Corticosteroids"){
+				Corticosteroids.push(i)
 			} 
 		}
-		console.log("Fioricet length is " + Fioricet.length)
-		setFioricet(Fioricet)
+		console.log("Fioricet length is " + Corticosteroids.length)
+		setCorticosteroids(Corticosteroids)
 	}
 		
 		// Ibuprofen
@@ -56,34 +56,34 @@ function Pharmaceuticals (props) {
 					Ibuprofen.push(i)
 				}
 			}
-			console.log("Ibuprofen length is " + Ibuprofen.length)
+			console.log("Tylenol length is " + Ibuprofen.length)
 			setIbuprofen(Ibuprofen)
 		}
 
-		function returnCaffeine(treatments){
+		function returnOpioids(treatments){
 			var i;
-			var Caffeine = []
+			var Opioids = []
 			for (i=0; i< treatments.length; i++)
 			{
-			if(treatments[i].Treatment === "Caffeine"){
-					Caffeine.push(i)
+			if(treatments[i].Treatment === "Opioids"){
+                Opioids.push(i)
 				}
 			}
-			console.log("Caffeine length is " + Caffeine.length)
-			setCaffeine(Caffeine)
+			console.log("Opioids length is " + Opioids.length)
+			setOpioids(Opioids)
 		}
 
-		function returnAdvil(treatments){
+		function returnTylenol(treatments){
 			var i;
-			var Advil = []
+			var Tylenol = []
 			for (i=0; i< treatments.length; i++)
 			{
-			if(treatments[i].Treatment === "Advil"){
-					Advil.push(i)
+			if(treatments[i].Treatment === "Tylenol"){
+					Tylenol.push(i)
 				}
 			}
-			console.log("Advil length is " + Advil.length)
-			setAdvil(Advil)
+			console.log("Tylenol length is " + Tylenol.length)
+			setTylenol(Tylenol)
 		}
 
 		
@@ -119,10 +119,10 @@ function Pharmaceuticals (props) {
 			data: [{
 				type: "bar",
 				dataPoints: [
-					{ y:  fioricet.length, label: "Fioricet" },
+					{ y:  opioids.length, label: "Fioricet" },
 					{ y:  ibuprofen.length, label: "Ibuprofen" },
-					{ y:  caffeine.length, label: "Caffeine" },
-					{ y:  advil.length, label: "Advil" },
+					{ y:  corticosteroids.length, label: "Caffeine" },
+					{ y:  tylenol.length, label: "Advil" },
 				]
 			}]
 		}

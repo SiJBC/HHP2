@@ -10,12 +10,12 @@ const Example = (props) => {
 
   useEffect(() => {
 
-      getHeadachePosts()
+      getBackpainPosts()
   
 }, [])
 
-function getHeadachePosts(email){
-    API.getHeadache()
+function getBackpainPosts(email){
+    API.getBackpain()
     .then(res =>
       setPosts(res.data))
     .catch(err => console.log(err))
