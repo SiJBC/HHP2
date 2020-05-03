@@ -44,6 +44,42 @@ module.exports = {
         .catch(err => res.status(422).json(err))
     },
 
+    findAlzheimers: function(req,res){
+        db.Ailments.find({"Ailment": "Alzheimers"})
+        .then(dbModel => res.json(dbModel))
+        .catch(err => res.status(422).json(err))
+    },
+
+    findAlzheimersPharm: function(req,res){
+        db.Ailments.find({"Ailment": "Alzheimers"}).find({"Method":"Pharmaceutical"})
+        .then(dbModel => res.json(dbModel))
+        .catch(err => res.status(422).json(err))
+    },
+
+    findAlzheimersNoPharm: function(req,res){
+        db.Ailments.find({"Ailment": "Alzheimers"}).find({"Method":"Non-Pharmaceutical"})
+        .then(dbModel => res.json(dbModel))
+        .catch(err => res.status(422).json(err))
+    },
+
+    findDiabetes: function(req,res){
+        db.Ailments.find({"Ailment": "Diabetes"})
+        .then(dbModel => res.json(dbModel))
+        .catch(err => res.status(422).json(err))
+    },
+
+    findDiabetesPharm: function(req,res){
+        db.Ailments.find({"Ailment": "Diabetes"}).find({"Method":"Pharmaceutical"})
+        .then(dbModel => res.json(dbModel))
+        .catch(err => res.status(422).json(err))
+    },
+
+    findDiabetesNoPharm: function(req,res){
+        db.Ailments.find({"Ailment": "Diabetes"}).find({"Method":"Non-Pharmaceutical"})
+        .then(dbModel => res.json(dbModel))
+        .catch(err => res.status(422).json(err))
+    },
+
     findAll: function(req, res) {
         db.Ailments.find({})
         .then(dbModel => res.json(dbModel))

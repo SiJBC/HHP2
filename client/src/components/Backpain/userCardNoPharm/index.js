@@ -10,12 +10,12 @@ const Example = (props) => {
 
   useEffect(() => {
 
-      getHeadachePosts()
+      getBackpainPosts()
   
 }, [])
 
-function getHeadachePosts(email){
-    API.getHeadache()
+function getBackpainPosts(email){
+    API.getBackpainNoPharm()
     .then(res =>
       setPosts(res.data))
     .catch(err => console.log(err))
@@ -25,7 +25,7 @@ function getHeadachePosts(email){
 
   return (
     <div>
-      <div className = "container mt-20px">
+      <div className = "container">
       <div className="row justify-content-center">
                             <h1>User posts</h1>
             </div>

@@ -31,6 +31,8 @@ import SkinDisordersNoPharmForm from "./components/Form/SkinDisordersNoPharmForm
 import SkinDisordersPharmForm from "./components/Form/SkinDisordersPharmForm"
 import Headache from "./components/Headache"
 import Backpain from "./components/Backpain"
+import Alzheimers from "./components/Alzheimers"
+import Diabetes from "./components/Diabetes"
 
 
 // Check for token to keep user logged in
@@ -65,6 +67,8 @@ class App extends Component {
             <Route exact path ="/Form" component ={Form} />
             <Route exact path ="/headache" component = {Headache} />
             <Route exact path ="/backpain" component = {Backpain} />
+            <Route exact path = "/alzheimers" component = {Alzheimers} />
+            <Route exact path = "/diabetes" component = {Diabetes} />
            
             <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />

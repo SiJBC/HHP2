@@ -10,20 +10,21 @@ function PieChart(props) {
 	const [noPharm, setNoPharm] = useState([])
 
 	useEffect(() => {
-		loadHeadachePharm()
-		loadHeadacheNoPharm()
+		loadAlzheimersPharm()
+		loadAlzheimersNoPharm()
+		console.log("here")
 	}, [])
 
-	function loadHeadachePharm(){
-		
-		API.getHeadachePharm()
+	function loadAlzheimersPharm(){
+		API.getAlzheimersPharm()
 		.then(Pharmres =>            
 			setPharm(Pharmres.data))
 	} 
 
-	function loadHeadacheNoPharm(){
+	function loadAlzheimersNoPharm(){
 		
-		API.getHeadacheNoPharm()
+		API.getAlzheimersNoPharm()
+		
 		.then(NoPharmres =>            
 			setNoPharm(NoPharmres.data))
 	}

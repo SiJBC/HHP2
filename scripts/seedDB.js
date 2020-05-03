@@ -1259,6 +1259,390 @@ const ailmentSeed = [
         Email: ""
     },
 
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Cholinesterase-inhibitors",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Cholinesterase-inhibitors",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Cholinesterase-inhibitors",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Cholinesterase-inhibitors",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Memantine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Memantine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Memantine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Memantine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Donepezil",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Donepezil",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Donepezil",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Donepezil",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Galantamine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Galantamine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Galantamine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Galantamine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Pharmaceutical",
+        Treatment: "Galantamine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Cognitive-therapy-approaches",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Cognitive-therapy-approaches",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Cognitive-therapy-approaches",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Cognitive-therapy-approaches",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Cognitive-therapy-approaches",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Exercise",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Exercise",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Exercise",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Exercise",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Exercise",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Emotional-training",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Emotional-training",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method:  "Non-Pharmaceutical",
+        Treatment: "Emotional-training",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Emotional-training",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment:"Emotional-training",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Alzheimers",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    
+
+
     
     
     

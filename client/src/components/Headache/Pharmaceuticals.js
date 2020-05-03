@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CanvasJSReact from '../../assets/canvasjs.react';
 import API from "../../utils/API"
+import UserCardPharm from "./userCardsPharm"
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 var CanvasJS = CanvasJSReact.CanvasJS;
  
@@ -132,6 +133,7 @@ function Pharmaceuticals (props) {
 					<CanvasJSChart options = {options} 
 				/* onRef={ref => this.chart = ref} */
 			/>
+			<UserCardPharm />
 		
 	
 			{/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}

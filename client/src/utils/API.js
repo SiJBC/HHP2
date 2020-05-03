@@ -25,6 +25,30 @@ export  default {
         return axios.get("/api/ailments/backpain/nopharm")
     },
 
+    getAlzheimers(){
+        return axios.get("/api/ailments/alzheimers")
+    },
+
+    getAlzheimersPharm(){
+        return axios.get("/api/ailments/alzheimers/pharm")
+    },
+
+    getAlzheimersNoPharm(){
+        return axios.get("/api/ailments/alzheimers/nopharm")
+    },
+
+    getDiabetes(){
+        return axios.get("/api/ailments/diabetes")
+    },
+
+    getDiabetesPharm(){
+        return axios.get("/api/ailments/diabetes/pharm")
+    },
+
+    getDiabetesNoPharm(){
+        return axios.get("/api/ailments/diabetes/nopharm")
+    },
+
     postAilment(userData){
         return axios.post("/api/ailments", userData)
     },

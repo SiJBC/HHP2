@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import CanvasJSReact from '../../assets/canvasjs.react';
 import API from "../../utils/API"
-import UserCardPharm from "./userCardPharm"
+import UserCardPharm from "./userCardsPharm"
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 var CanvasJS = CanvasJSReact.CanvasJS;
-
  
 function Pharmaceuticals (props) {
 
-	const [corticosteroids, setCorticosteroids] = useState([])
-	const [ibuprofen, setIbuprofen] = useState([])
-	const [opioids, setOpioids] = useState([])
-	const [tylenol, setTylenol] = useState([])
+	const [galantamine, setGalantamine] = useState([])
+	const [donepezil, setDonepezil] = useState([])
+	const [memantine, setMemantine] = useState([])
+	const [cholinesteraseInhibitors, setcholinesteraseInhibitors] = useState([])
 
 	useEffect(() => {
 		loadPharmaceuticalslength()
@@ -24,68 +23,69 @@ function Pharmaceuticals (props) {
 			// Fioricet  
 	function loadPharmaceuticalslength(){
 		
-		API.getBackpainPharm()
+		API.getAlzheimersPharm()
 		.then(Pharmres =>   {
-			returnCorticosteroids(Pharmres.data)
-			returnIbuprofen(Pharmres.data)
-			returnOpioids(Pharmres.data)
-			returnTylenol(Pharmres.data)
+			returnGalantamine(Pharmres.data)
+			returnDonepezil(Pharmres.data)
+			returnMemantine(Pharmres.data)
+			returncholinesteraseInhibitors(Pharmres.data)
 		}         
 	)} 
 
 
-	function returnCorticosteroids(treatments) {
+	function returnGalantamine(treatments) {
 		
 		var i;
-		var Corticosteroids = []
+		
+		var Galantamine = []
 		for ( i=0; i <treatments.length; i++){
 
-			if(treatments[i].Treatment === "Corticosteroids"){
-				Corticosteroids.push(i)
+			if(treatments[i].Treatment === "Galantamine"){
+				Galantamine.push(i)
 			} 
 		}
-		console.log("Fioricet length is " + Corticosteroids.length)
-		setCorticosteroids(Corticosteroids)
+		console.log("Galantamine length is " + Galantamine.length)
+		setGalantamine(Galantamine)
 	}
 		
 		// Ibuprofen
-		function returnIbuprofen(treatments){
+		function returnDonepezil(treatments){
 			var i;
-			var Ibuprofen = []
+			var Donepezil = []
 			for (i=0; i< treatments.length; i++)
 			{
-			if(treatments[i].Treatment === "Ibuprofen"){
-					Ibuprofen.push(i)
+			if(treatments[i].Treatment === "Donepezil"){
+				Donepezil.push(i)
 				}
 			}
-			console.log("Tylenol length is " + Ibuprofen.length)
-			setIbuprofen(Ibuprofen)
+			console.log("Ibuprofen length is " + Donepezil.length)
+			setDonepezil(Donepezil)
 		}
 
-		function returnOpioids(treatments){
+		function returnMemantine(treatments){
 			var i;
-			var Opioids = []
+			var Memantine = []
 			for (i=0; i< treatments.length; i++)
 			{
-			if(treatments[i].Treatment === "Opioids"){
-                Opioids.push(i)
+			if(treatments[i].Treatment === "Memantine"){
+				Memantine.push(i)
 				}
 			}
-			console.log("Opioids length is " + Opioids.length)
-			setOpioids(Opioids)
+			console.log("Memantine length is " + Memantine.length)
+			setMemantine(Memantine)
 		}
-
-		function returnTylenol(treatments){
+		
+		function returncholinesteraseInhibitors(treatments){
 			var i;
-			var Tylenol = []
+			var CholinesteraseInhibitors = []
 			for (i=0; i< treatments.length; i++)
 			{
-			if(treatments[i].Treatment === "Tylenol"){
-					Tylenol.push(i)
+			if(treatments[i].Treatment === "Cholinesterase-inhibitors"){
+				CholinesteraseInhibitors.push(i)
 				}
 			}
-			console.log("Tylenol length is " + Tylenol.length)
-			setTylenol(Tylenol)
+			console.log("cholinesteraseInhibitors length is " + CholinesteraseInhibitors.length)
+			setcholinesteraseInhibitors(CholinesteraseInhibitors)
 		}
 
 		
@@ -121,10 +121,10 @@ function Pharmaceuticals (props) {
 			data: [{
 				type: "bar",
 				dataPoints: [
-					{ y:  opioids.length, label: "Fioricet" },
-					{ y:  ibuprofen.length, label: "Ibuprofen" },
-					{ y:  corticosteroids.length, label: "Caffeine" },
-					{ y:  tylenol.length, label: "Advil" },
+					{ y:  galantamine.length, label: "Galantamine" },
+					{ y:  donepezil.length, label: "Donepezil" },
+					{ y:  memantine.length, label: "Memantine" },
+					{ y:  cholinesteraseInhibitors.length, label: "Cholinesterase-inhibitors"},
 				]
 			}]
 		}
@@ -134,7 +134,7 @@ function Pharmaceuticals (props) {
 					<CanvasJSChart options = {options} 
 				/* onRef={ref => this.chart = ref} */
 			/>
-			 <UserCardPharm />
+			<UserCardPharm />
 		
 	
 			{/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}

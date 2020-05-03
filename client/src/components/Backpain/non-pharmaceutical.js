@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CanvasJSReact from '../../assets/canvasjs.react';
 import API from "../../utils/API"
+import UserCardNoPharm from "./userCardNoPharm"
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
  
@@ -113,7 +114,7 @@ function NonPharmaceuticals(props) {
 				/* onRef={ref => this.chart = ref} */
 			/>
 
-	
+			<UserCardNoPharm />
 			{/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}
 		</div>
 		);

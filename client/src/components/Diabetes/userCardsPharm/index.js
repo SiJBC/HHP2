@@ -15,7 +15,7 @@ const Example = (props) => {
 }, [])
 
 function getHeadachePosts(email){
-    API.getHeadache()
+    API.getAlzheimersPharm()
     .then(res =>
       setPosts(res.data))
     .catch(err => console.log(err))
@@ -27,7 +27,7 @@ function getHeadachePosts(email){
     <div>
       <div className = "container mt-20px">
       <div className="row justify-content-center">
-                            <h1>User posts</h1>
+                            <h1>User pharmaceutical posts</h1>
             </div>
                                    <div className = "row justify-content-center">
                                         {posts.map(post => (

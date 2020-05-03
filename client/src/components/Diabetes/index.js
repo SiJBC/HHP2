@@ -2,13 +2,14 @@ import React from 'react';
 // import PieChart from "./PieChart.js"
 import Hero from "../Hero"
 import Graph from "./graph"
-import BackPainImage from "../../assets/img/backproblems.jpeg"
+
+import DiabetesImage from "../../assets/img/diabetes.jpg"
 
 
 
 
 
-function Backpain() {
+function Diabetes() {
 
 
 
@@ -16,28 +17,26 @@ function Backpain() {
         <div>
             <Hero />
             <div className = "row justify-content-center">
-           
+     
+       
             </div>
         
-        
+            <section>
             <div classname="overlay"></div>
             <div className="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
+                <div className ="col-lg-8 col-md-10 mx-auto">
                   <br></br>
                     <div className="post-heading">
-                        <h1>The Healthy Human project back pain study
-
-                        </h1
-                        >
-                        <img src={BackPainImage} alt="headache" />
-                        <h4 className="subheading">Back pain can be caused by many different things; tight muscles, accute injuruies bad posture etc.</h4>
+                        <h1>The Healthy Human project Alzheimers study
+                        </h1>
+                        <img src={DiabetesImage} alt="alzheimers" />
+                        <h2 className="subheading">Diabetes occurs when the blood sugar or glucose is too high. Glucose is the body's main source of energy. </h2>
                     </div>
                 </div>
              
             </div>
-            <br></br>
- 
-                <div classname="container-fluid">
+            <article>
+                <div classname="container">
                     <div classname="row">
                         <div class="col-lg-8 col-md-10 mx-auto">
                             <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
@@ -57,11 +56,12 @@ function Backpain() {
                     </div>
 
                 </div>
-      
+            </article>
+            </section>
           
 
             <Graph />
-          
+
 
 
         </div>
@@ -74,4 +74,4 @@ function Backpain() {
 
 
 
-export default Backpain
+export default Diabetes

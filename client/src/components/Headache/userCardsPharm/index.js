@@ -15,7 +15,7 @@ const Example = (props) => {
 }, [])
 
 function getHeadachePosts(email){
-    API.getHeadache()
+    API.getHeadachePharm()
     .then(res =>
       setPosts(res.data))
     .catch(err => console.log(err))

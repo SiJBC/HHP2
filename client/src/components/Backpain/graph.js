@@ -28,14 +28,15 @@ class Graph extends Component{
     render(){
         return(
             <div>
+                   <GraphToggle
+                    currentGraph ={this.state.currentgraph}
+                    handleGraphChange ={this.handleGraphChange}
+                />
         
                    <div>
                    {this.renderGraph()}
             </div>
-            <GraphToggle
-                    currentGraph ={this.state.currentgraph}
-                    handleGraphChange ={this.handleGraphChange}
-                />
+         
             </div>
          
         )
