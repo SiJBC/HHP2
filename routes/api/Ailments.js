@@ -28,7 +28,7 @@ router.route("/alzheimers")
 router.route("/alzheimers/pharm")
     .get(ailmentController.findAlzheimersPharm)
 
-router.route("/diabetes/nopharm")
+router.route("/alzheimers/nopharm")
     .get(ailmentController.findAlzheimersNoPharm)
 
 router.route("/diabetes")
@@ -39,6 +39,15 @@ router.route("/diabetes/pharm")
 
 router.route("/diabetes/nopharm")
     .get(ailmentController.findDiabetesNoPharm)
+
+router.route("/jointpains")
+    .get(ailmentController.findJointPains)
+
+router.route("/jointpains/pharm")
+    .get(ailmentController.findJointPainsPharm)
+
+router.route("/jointpains/nopharm")
+    .get(ailmentController.findJointPainsNoPharm)
 
 
 router.route("/")

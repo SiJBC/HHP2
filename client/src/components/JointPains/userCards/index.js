@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import API from "../../../utils/API"
 import Card from "../../card"
-import LikeBtn from "../../LikeBtn"
 
 
 
@@ -15,14 +14,8 @@ const Example = (props) => {
   
 }, [])
 
-function likePost(id) {
-  API.likePost(id)
-  .then(console.log('updated'))
-    .catch(err => console.log(err))
-}
-
 function getHeadachePosts(email){
-    API.getHeadache()
+    API.getJointPains()
     .then(res =>
       setPosts(res.data))
     .catch(err => console.log(err))
@@ -38,7 +31,6 @@ function getHeadachePosts(email){
             </div>
                                    <div className = "row justify-content-center">
                                         {posts.map(post => (
-                                          <div>
                                             <Card
                                             key ={post._id}
                                             Ailment = {post.Ailment}
@@ -49,8 +41,6 @@ function getHeadachePosts(email){
                                             Story= {post.Story}
                                             Source = {post.Source}
                                             />
-                                            <button><LikeBtn onClick={() => likePost(post._id)} /></button>
-                                            </div>
                                         ))}
                                        </div> 
       </div>     

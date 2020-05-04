@@ -10,20 +10,21 @@ function PieChart(props) {
 	const [noPharm, setNoPharm] = useState([])
 
 	useEffect(() => {
-		loadDiabetesPharm()
-		loadDiabetesNoPharm()
+		loadJointPainsPharm()
+		loadJointPainsNoPharm()
+
 	}, [])
 
-	function loadDiabetesPharm(){
-		
-		API.getDiabetesPharm()
+	function loadJointPainsPharm(){
+		API.getJointPainsPharm()
 		.then(Pharmres =>            
 			setPharm(Pharmres.data))
 	} 
 
-	function loadDiabetesNoPharm(){
+	function loadJointPainsNoPharm(){
 		
-		API.getDiabetesNoPharm()
+		API.getJointPainsNoPharm()
+		
 		.then(NoPharmres =>            
 			setNoPharm(NoPharmres.data))
 	}

@@ -1640,6 +1640,857 @@ const ailmentSeed = [
         Source: "https://somethingsomething.com",
         Email: ""
     },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Exercise",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Bariatricsurgery",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Bariatricsurgery",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Bariatricsurgery",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Bariatricsurgery",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Bariatricsurgery",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Blood-monitoring",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Blood-monitoring",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Blood-monitoring",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Blood-monitoring",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Blood-monitoring",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Metformin",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Metformin",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Metformin ",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Metformin",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Metformin",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Sulfonylureas",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Sulfonylureas",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Sulfonylureas",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Sulfonylureas",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Sulfonylureas",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Meglitinides",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Meglitinides",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Meglitinides",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Meglitinides",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Meglitinides",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Thiazolidinediones",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Thiazolidinediones",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Thiazolidinediones",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Thiazolidinediones",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Thiazolidinediones",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "Diabetes",
+        Method: "Pharmaceutical",
+        Treatment: "Thiazolidinediones",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Paracetamol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Paracetamol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Paracetamol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Paracetamol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Paracetamol",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Ibuprofen",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Aspirin",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Aspirin",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Aspirin",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Aspirin",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Aspirin",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Codeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Codeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Codeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Codeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Codeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Pharmaceutical",
+        Treatment: "Codeine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Exercise",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Exercise",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Exercise",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Exercise",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Exercise",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Exercise",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Diet",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Glucosamine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Glucosamine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Glucosamine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Glucosamine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Glucosamine",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    {
+        Ailment: "JointPains",
+        Method: "Non-Pharmaceutical",
+        Treatment: "Massage",
+        Age: "30-40",
+        ActivityLevel: "Do not exercise",
+        Story:"Once upon a time",
+        Source: "https://somethingsomething.com",
+        Email: ""
+    },
+    
     
 
 

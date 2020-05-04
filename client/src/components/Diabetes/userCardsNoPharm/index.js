@@ -10,12 +10,12 @@ const Example = (props) => {
 
   useEffect(() => {
 
-      getHeadachePosts()
+      getDiabetesPosts()
   
 }, [])
 
-function getHeadachePosts(email){
-    API.getAlzheimersNoPharm()
+function getDiabetesPosts(email){
+    API.getDiabetesNoPharm()
     .then(res =>
       setPosts(res.data))
     .catch(err => console.log(err))

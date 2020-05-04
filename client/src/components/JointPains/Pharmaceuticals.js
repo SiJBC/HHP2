@@ -7,10 +7,10 @@ var CanvasJS = CanvasJSReact.CanvasJS;
  
 function Pharmaceuticals (props) {
 
-	const [thiazolidinediones, setThiazolidinediones] = useState([])
-	const [meglitinides, setMeglitinides] = useState([])
-	const [memantine, setMetformin] = useState([])
-	const [sulfonylureas, setSulfonylureas] = useState([])
+	const [galantamine, setGalantamine] = useState([])
+	const [donepezil, setDonepezil] = useState([])
+	const [memantine, setMemantine] = useState([])
+	const [cholinesteraseInhibitors, setcholinesteraseInhibitors] = useState([])
 
 	useEffect(() => {
 		loadPharmaceuticalslength()
@@ -23,69 +23,69 @@ function Pharmaceuticals (props) {
 			// Fioricet  
 	function loadPharmaceuticalslength(){
 		
-		API.getDiabetesPharm()
+		API.getAlzheimersPharm()
 		.then(Pharmres =>   {
-			returnThiazolidinediones(Pharmres.data)
-			returnMeglitinides(Pharmres.data)
-			returnMetformin(Pharmres.data)
-			returnSulfonylureas(Pharmres.data)
+			returnGalantamine(Pharmres.data)
+			returnDonepezil(Pharmres.data)
+			returnMemantine(Pharmres.data)
+			returncholinesteraseInhibitors(Pharmres.data)
 		}         
 	)} 
 
 
-	function returnThiazolidinediones(treatments) {
+	function returnGalantamine(treatments) {
 		
 		var i;
 		
-		var Thiazolidinediones = []
+		var Galantamine = []
 		for ( i=0; i <treatments.length; i++){
 
-			if(treatments[i].Treatment === "Thiazolidinediones"){
-				Thiazolidinediones.push(i)
+			if(treatments[i].Treatment === "Galantamine"){
+				Galantamine.push(i)
 			} 
 		}
-		console.log("Thiazolidinediones length is " + Thiazolidinediones.length)
-		setThiazolidinediones(Thiazolidinediones)
+		console.log("Galantamine length is " + Galantamine.length)
+		setGalantamine(Galantamine)
 	}
 		
 		// Ibuprofen
-		function returnMeglitinides(treatments){
+		function returnDonepezil(treatments){
 			var i;
-			var Meglitinides = []
+			var Donepezil = []
 			for (i=0; i< treatments.length; i++)
 			{
-			if(treatments[i].Treatment === "Meglitinides"){
-				Meglitinides.push(i)
+			if(treatments[i].Treatment === "Donepezil"){
+				Donepezil.push(i)
 				}
 			}
-			console.log("Meglitinides length is " + Meglitinides.length)
-			setMeglitinides(Meglitinides)
+			console.log("Ibuprofen length is " + Donepezil.length)
+			setDonepezil(Donepezil)
 		}
 
-		function returnMetformin(treatments){
+		function returnMemantine(treatments){
 			var i;
-			var Metformin = []
+			var Memantine = []
 			for (i=0; i< treatments.length; i++)
 			{
-			if(treatments[i].Treatment === "Metformin"){
-				Metformin.push(i)
+			if(treatments[i].Treatment === "Memantine"){
+				Memantine.push(i)
 				}
 			}
-			console.log("Memantine length is " + Metformin.length)
-			setMetformin(Metformin)
+			console.log("Memantine length is " + Memantine.length)
+			setMemantine(Memantine)
 		}
 		
-		function returnSulfonylureas(treatments){
+		function returncholinesteraseInhibitors(treatments){
 			var i;
-			var Sulfonylureas = []
+			var CholinesteraseInhibitors = []
 			for (i=0; i< treatments.length; i++)
 			{
-			if(treatments[i].Treatment === "Sulfonylureas"){
-				Sulfonylureas.push(i)
+			if(treatments[i].Treatment === "Cholinesterase-inhibitors"){
+				CholinesteraseInhibitors.push(i)
 				}
 			}
-			console.log("cholinesteraseInhibitors length is " + Sulfonylureas)
-			setSulfonylureas(Sulfonylureas)
+			console.log("cholinesteraseInhibitors length is " + CholinesteraseInhibitors.length)
+			setcholinesteraseInhibitors(CholinesteraseInhibitors)
 		}
 
 		
@@ -121,10 +121,10 @@ function Pharmaceuticals (props) {
 			data: [{
 				type: "bar",
 				dataPoints: [
-					{ y:  thiazolidinediones.length, label: "Thiazolidinediones" },
-					{ y:  meglitinides.length, label: "Meglitinides" },
+					{ y:  galantamine.length, label: "Galantamine" },
+					{ y:  donepezil.length, label: "Donepezil" },
 					{ y:  memantine.length, label: "Memantine" },
-					{ y:  sulfonylureas.length, label: "Sulfonylureas"},
+					{ y:  cholinesteraseInhibitors.length, label: "Cholinesterase-inhibitors"},
 				]
 			}]
 		}

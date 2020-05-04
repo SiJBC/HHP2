@@ -33,6 +33,8 @@ import Headache from "./components/Headache"
 import Backpain from "./components/Backpain"
 import Alzheimers from "./components/Alzheimers"
 import Diabetes from "./components/Diabetes"
+import JointPains from "./components/JointPains"
+
 
 
 // Check for token to keep user logged in
@@ -59,8 +61,12 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Router>
+          
           <div className="App">
-            <Navbar />
+            <div>
+              
+            </div>
+      
             <Route exact path="/" component={Landing} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
@@ -69,7 +75,9 @@ class App extends Component {
             <Route exact path ="/backpain" component = {Backpain} />
             <Route exact path = "/alzheimers" component = {Alzheimers} />
             <Route exact path = "/diabetes" component = {Diabetes} />
-           
+            <Route exact path = "/jointpains" component = {JointPains} />
+         
+
             <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
               {/* <AilmentForms/> */}
@@ -87,8 +95,9 @@ class App extends Component {
               <Route exact path = "/dashboard/Skindisorderspharmform" component ={SkinDisordersPharmForm} />
               
             </Switch>
-            <Footer />
+
           </div>
+
 
         </Router>
 

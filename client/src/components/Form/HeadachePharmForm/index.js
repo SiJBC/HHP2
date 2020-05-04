@@ -23,6 +23,7 @@ function handleInputChange(event){
     setFormObject({...formObject, Email:localStorage.getItem("userEmail"), 
     Ailment: "Headache",
     Method: "Pharmaceutical",
+    Likes: 0,
     // name and value is from the form
     [name]: value}) 
 
@@ -36,12 +37,13 @@ function handleFormSubmit(event) {
       API.postAilment({
           Ailment: "Headache",
         Method: "Pharmaceutical",
+        Likes: 0,
         Email: localStorage.getItem("userEmail"),
         Treatment: formObject.Treatment,
         Age: formObject.Age,
         ActivityLevel: formObject.ActivityLevel,
         Story: formObject.Story,
-        Source: formObject.Source
+        Source: formObject.Source,
 
         
       })

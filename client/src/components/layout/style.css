@@ -1,3 +1,76 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
 }
+
+.chip {
+  display: inline-block;
+  padding:  25px;
+  padding-right: 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 75px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+
+.container{
+  padding-top: 10%;
+}
+
+.row{
+  padding-top: 5%
+}
+
+.media{
+  border: 10px;
+  padding: 1%;
+  margin: 0 10px 0 -25px;
+  background-color: #bae3f0;
+  border-style: groove;
+  width: 400px;
+}
+
+body {
+  font-family: 'Crimson Pro', serif;
+  font-size: 48px;
+}
+.heading {
+  font-family: 'Crimson Pro', serif;
+  font-size: 35px;
+}
+
+h5{
+  font-weight: bolder ;
+  font-style: oblique;
+}
+
+.headingImage{
+  height: 275px
+}
+
+.sub-heading {
+  font-family: 'Crimson Pro', serif;
+  font-size: 30px;
+}
+
+.heading2 {
+  font-family: 'Crimson Pro', serif;
+  margin-top: 10%;
+  font-size: 35px;
+  text-align:right;
+}
+
+.heading3 {
+  font-family: 'Crimson Pro', serif;
+  margin-top: 10%;
+  font-size: 35px;
+  text-align: center;
+}

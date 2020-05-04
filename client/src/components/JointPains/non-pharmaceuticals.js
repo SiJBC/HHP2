@@ -8,25 +8,25 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 function NonPharmaceuticals(props) {
 
 	const [diet, setDiet] = useState([])
-	const [bloodMonitoring, setBloodMonitoring] = useState([])
-	const [bariatricSurgery, setBariatricSurgery] = useState([])
+	const [glucosamine, setGlucosamine] = useState([])
 	const [exercise, setExercise] = useState([])
+	const [massage, setMassage] = useState([])
 
 
 	useEffect(() => {
-		loadPharmaceuticalslength()
+		loadNonPharmaceuticalslength()
 	
 	
 	}, [])
 
-	function loadPharmaceuticalslength(){
-		API.getDiabetes().then(pharmres => console.log(pharmres))
-		API.getDiabetesNoPharm()
+	function loadNonPharmaceuticalslength(){
+		
+		API.getJointPainsNoPharm()
 		.then(Pharmres =>   {
 			returnDiet(Pharmres.data)
-			returnBloodMonitoring(Pharmres.data)
+			returnGlucosamine(Pharmres.data)
 			returnExercise(Pharmres.data)
-			returnBariatricSurgery(Pharmres.data)
+			returnMassage(Pharmres.data)
 		}         
 	)} 
 
@@ -43,44 +43,44 @@ function NonPharmaceuticals(props) {
 		setDiet(Diet)
 	}
 
-	function returnBloodMonitoring(treatments){
+	function returnGlucosamine(treatments){
 		var i;
-		var BloodMonitoring = []
+		var Glucosamine = []
 		for (i=0; i< treatments.length; i++)
 		{
-		if(treatments[i].Treatment === "Blood-monitoring"){
-			BloodMonitoring.push(i)
+		if(treatments[i].Treatment === "Glucosamine"){
+			Glucosamine.push(i)
 			}
 		}
-		console.log("BloodMonitoring is " + BloodMonitoring.length)
-		setBloodMonitoring(BloodMonitoring)
-	}
-
-	function returnBariatricSurgery(treatments){
-		var i;
-		var BariatricSurgery = []
-		for (i=0; i< treatments.length; i++)
-		{
-		if(treatments[i].Treatment === "Bariatricsurgery"){
-			BariatricSurgery.push(i)
-			}
-		}
-		console.log("Bariatric surgery" + BariatricSurgery.length)
-		setBariatricSurgery(BariatricSurgery)
+		console.log("Acupuncture is " + Glucosamine.length)
+		setGlucosamine(Glucosamine)
 	}
 
 	function returnExercise(treatments){
 		var i;
-		
-		var CognitiveTherapyApproaches = []
+		var Exercise = []
 		for (i=0; i< treatments.length; i++)
 		{
 		if(treatments[i].Treatment === "Exercise"){
-			CognitiveTherapyApproaches.push(i)
+			Exercise.push(i)
 			}
 		}
-		console.log("Cognitive-therapy-approaches" + CognitiveTherapyApproaches.length)
-		setExercise(CognitiveTherapyApproaches)
+		console.log("Exercise is " + Exercise.length)
+		setExercise(Exercise)
+	}
+
+	function returnMassage(treatments){
+		var i;
+		
+		var Massage = []
+		for (i=0; i< treatments.length; i++)
+		{
+		if(treatments[i].Treatment === "Massage"){
+			Massage.push(i)
+			}
+		}
+		console.log("Massage" + Massage.length)
+		setMassage("Massage")
 	}
 
 
@@ -101,11 +101,11 @@ function NonPharmaceuticals(props) {
 			data: [{
 				type: "bar",
 				dataPoints: [
-			
-					{ y:  bloodMonitoring.length, label: "Blood-monitoring" },
+					
+					{ y:  glucosamine.length, label: "Glucosamine" },
 					{ y:  diet.length, label: "Diet" },
-					{ y:  bariatricSurgery.length, label: "Bariatric-Surgery" },
-					{ y:  exercise.length, label: "Exercise"},
+					{ y:  exercise.length, label: "Exercise" },
+					{ y:  massage.length, label: "Massage" },
 				]
 			}]
 		}

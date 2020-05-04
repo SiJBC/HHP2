@@ -8,15 +8,16 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import HeadachePharmForm from "../Form/HeadachePharmForm"
 import API from "../../utils/API"
 import Card from "../card"
+import DeleteBtn from "../DeleteBtn"
 
-
+const email = localStorage.getItem("userEmail") 
 
 function Dashboard(props) {
 
   const [posts, setPosts] = useState([])
 
 useEffect(() => {
-    const email = localStorage.getItem("userEmail") 
+    // const email = localStorage.getItem("userEmail") 
       loadUserPosts(email)
         console.log(posts)
 }, [])
@@ -25,6 +26,12 @@ useEffect(() => {
     e.preventDefault();
     props.logoutUser();
   };
+
+  function deletePost(id) {
+    API.deletePost(id)
+    .then(res => loadUserPosts(email))
+    .catch(err => console.log(err))
+  }
 
   function loadUserPosts(email){
     API.returnByEmail(email)
@@ -77,6 +84,7 @@ useEffect(() => {
           <div className="col s4 justify-content-left">
           <div className = "row justify-content-center">
                                         {posts.map(post => (
+                                          <div>
                                             <Card
                                             key ={post._id}
                                             Ailment = {post.Ailment}
@@ -85,8 +93,13 @@ useEffect(() => {
                                             Age = {post.Age}
                                             ActivityLevel = {post.ActivityLevel}
                                             Source = {post.Source}
-                                            />
+                                            >
+                                            
+                                            </Card>
+                                          <button><DeleteBtn onClick={() => deletePost(post._id)} /></button>  
+                                            </div>
                                         ))}
+                                        
                                        </div> 
 
           </div>
