@@ -19,7 +19,10 @@ const ailmentSchema = new Schema({
   // Default added
   Date: { type: Date, default: Date.now },
 // from local storage request
-  Email:{type: String,required: false }
+  Email:{type: String,required: false },
+
+  // likes for updates
+  Likes:{type: Number, required: true, default: 0},
 });
 
 

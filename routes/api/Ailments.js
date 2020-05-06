@@ -56,6 +56,12 @@ router.route("/")
 router.route("/")
     .post(ailmentController.create)
 
+router.route("/:id")
+    .delete(ailmentController.remove)
+
+router.route("/:id")
+    .put(ailmentController.UpdateById)
+
 router.route("/:email")
     .get(ailmentController.findByEmail)
 

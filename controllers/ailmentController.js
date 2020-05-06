@@ -116,6 +116,25 @@ module.exports = {
             .create(req.body)
             .then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err))
-    }
+    },
+
+    remove: function(req, res) {
+        db.Ailments
+          .findById({ _id: req.params.id })
+          .then(dbModel => dbModel.remove())
+          .then(dbModel => res.json(dbModel))
+          .catch(err => res.status(422).json(err));
+      },
+
+      UpdateById: function (req, res) {
+        console.log(req.params)
+        db.Ailments.findOneAndUpdate({ _id: req.params.id },
+        {$inc: {likes: +1} })
+            .then(dbModel => res.json(dbModel))
+            .then(console.log("+1"))
+            .catch(err => res.status(422).json(err))
+    },
+
+
 
 };
