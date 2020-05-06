@@ -49,7 +49,7 @@ function getHeadachePosts(email){
                                             Story= {post.Story}
                                             Source = {post.Source}
                                             />
-                                            <button><LikeBtn onClick={() => likePost(post._id)} /></button>
+
                                             </div>
                                         ))}
                                        </div> 
