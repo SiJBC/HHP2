@@ -3,7 +3,7 @@ import CanvasJSReact from '../../assets/canvasjs.react';
 import API from "../../utils/API"
 import UserCardPharm from "./userCardsPharm"
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
-var CanvasJS = CanvasJSReact.CanvasJS;
+
  
 function Pharmaceuticals (props) {
 

@@ -29,6 +29,8 @@ function PieChart(props) {
 			setNoPharm(NoPharmres.data))
 	}
 
+	
+
  {
 	//  console.log(pharm)
 		const options = {
