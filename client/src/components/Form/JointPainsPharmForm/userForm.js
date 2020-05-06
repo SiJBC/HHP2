@@ -5,10 +5,10 @@ export function Treatment(props){
         <div className = "form-group">
             <select className="form-control" {...props}>
                 <option value=""> Select preffered treatment</option>
-                <option value ="tablet1">Tablet1</option>
-                <option value ="tablet1">Tablet2</option>
-                <option value ="tablet1">Tablet3</option>
-                <option value ="tablet1">Tablet4</option>
+                <option value ="Codeine">"Codeine"</option>
+                <option value ="Aspirin">"Aspirin"</option>
+                <option value ="Ibuprofen">"Ibuprofen"</option>
+                <option value ="Paracetamol">"Paracetamol"</option>
             </select>
         </div>
     )

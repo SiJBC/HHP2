@@ -30,7 +30,7 @@ function handleInputChange(event){
 
 function handleFormSubmit(event) {
         
-    event.preventDefault();
+   
    
       API.postAilment({
           Ailment: "Diabetes",
@@ -44,7 +44,8 @@ function handleFormSubmit(event) {
 
         
       })
-      console.log(formObject)
+   
+      alert("thank you for your submission")
     
   };
 

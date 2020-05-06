@@ -2,116 +2,95 @@ import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
-import { Button } from 'reactstrap'
-import AilmentForms from "./AilmentForms"
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import HeadachePharmForm from "../Form/HeadachePharmForm"
 import API from "../../utils/API"
 import Card from "../card"
 import DeleteBtn from "../DeleteBtn"
+import NavbarLoggedIn from "../layout/NavbarLoggedIn"
+import Footer from "../../components/Footer"
 
-const email = localStorage.getItem("userEmail") 
+const email = localStorage.getItem("userEmail")
 
 function Dashboard(props) {
 
   const [posts, setPosts] = useState([])
 
-useEffect(() => {
+  useEffect(() => {
     // const email = localStorage.getItem("userEmail") 
-      loadUserPosts(email)
-        console.log(posts)
-}, [])
+    loadUserPosts(email)
+    console.log(posts)
+  }, [])
 
-  const onLogoutClick = e => {
-    e.preventDefault();
-    props.logoutUser();
-  };
 
   function deletePost(id) {
     API.deletePost(id)
-    .then(res => loadUserPosts(email))
-    .catch(err => console.log(err))
+      .then(res => loadUserPosts(email))
+      .catch(err => console.log(err))
   }
 
-  function loadUserPosts(email){
+  function loadUserPosts(email) {
     API.returnByEmail(email)
-    .then(res =>
-      setPosts(res.data))
-    .catch(err => console.log(err))
+      .then(res =>
+        setPosts(res.data))
+      .catch(err => console.log(err))
   }
 
 
   const { user } = props.auth;
 
+
   return (
+
+
     <div style={{ height: "75vh" }}>
+      <NavbarLoggedIn>
+      </NavbarLoggedIn>
 
-      <div className="row justify-content-left">
-        <div className="col s4 justify-content-left">
-          <h4>
-            <b>Hey </b> {user.name.split(" ")[0]}
-            <p className="flow-text grey-text text-darken-1">
-              Welcome to your dashboard
+
+<div className = "container-fluid">
+<div className="row justify-content-center">
+        <h4>
+          <b>Hey </b> {user.name.split(" ")[0]}
+          <p className="flow-text grey-text text-darken-1">
+            Welcome to your dashboard you have {posts.length} active posts
             </p>
-          </h4>
-          <div className="col s4 justify-content-left">
+        </h4>
+
+          <div className="row justify-content-center">
+            {posts.map(post => (
+              <div>
+                
+                <Card
+                  key={post._id}
+                  Ailment={post.Ailment}
+                  Method={post.Method}
+                  Treatment={post.Treatment}
+                  Age={post.Age}
+                  ActivityLevel={post.ActivityLevel}
+                  Source={post.Source}
+                >
+                    
+                </Card>
+                <button><DeleteBtn onClick={() => deletePost(post._id)} /></button>
+                
+              </div>
+            ))}
 
           </div>
-          <div>
-            <Button
-              style={{
-                width: "150px",
-                borderRadius: "3px",
-                letterSpacing: "1.5px",
-                marginTop: "1rem"
-              }}
-              onClick={onLogoutClick}
-              className="btn btn-large waves-effect waves-light hoverable blue accent-3"
-            >
-              Logout
-            </Button>
-
-
-              <AilmentForms/>
-
-                <Router>
-                <Route exact path="/dashboard/Headachpharmform" component={HeadachePharmForm} />
-                </Router>
-            
-
-
-          </div>
-          <div className="col s4 justify-content-left">
-          <div className = "row justify-content-center">
-                                        {posts.map(post => (
-                                          <div>
-                                            <Card
-                                            key ={post._id}
-                                            Ailment = {post.Ailment}
-                                            Method = {post.Method}
-                                            Treatment ={post.Treatment}
-                                            Age = {post.Age}
-                                            ActivityLevel = {post.ActivityLevel}
-                                            Source = {post.Source}
-                                            >
-                                            
-                                            </Card>
-                                          <button><DeleteBtn onClick={() => deletePost(post._id)} /></button>  
-                                            </div>
-                                        ))}
-                                        
-                                       </div> 
-
-          </div>
-
-
-
-
-
-
         </div>
-      </div>
+</div>
+
+
+
+
+              <Footer />
     </div>
+
+
+
+
+
+
+
   );
 }
 

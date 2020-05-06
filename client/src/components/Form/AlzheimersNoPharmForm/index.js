@@ -3,7 +3,7 @@ import { Col, Row, Container } from "../../Grid";
 import {Treatment, Age, ActivityLevel, UserStory, Source, FormBtn} from "./userForm.js"
 import API from "../../../utils/API";
 import Jumbotron from "../../Jumbotron";
-import AilmentForms from "../../dashboard/AilmentForms"
+import Navbar from "../../layout/NavbarLoggedIn"
 
 
 // component for users to fill out the post for headache and pharmaceutical
@@ -30,7 +30,7 @@ function handleInputChange(event){
 
 function handleFormSubmit(event) {
         
-    event.preventDefault();
+
    
       API.postAilment({
           Ailment: "Alzheimers",
@@ -45,6 +45,7 @@ function handleFormSubmit(event) {
         
       })
       console.log(formObject)
+      alert("thank you for your submission")
     
   };
 
@@ -68,9 +69,12 @@ function handleFormSubmit(event) {
 // }
 
 return(
+    <div>
+    <Navbar/>
     <Container fluid>
         <Row>
-            <AilmentForms/>
+          
+    
             <Col size="md-4">
           
 
@@ -110,6 +114,8 @@ return(
               </Col>
         </Row>
     </Container>
+    </div>
+ 
 )
 
 

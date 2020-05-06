@@ -4,6 +4,7 @@ import {Treatment, Age, ActivityLevel, UserStory, Source, FormBtn} from "./userF
 import API from "../../../utils/API";
 import Jumbotron from "../../Jumbotron";
 import AilmentForms from "../../dashboard/AilmentForms"
+import Navbar from "../../layout/NavbarLoggedIn"
 
 
 // component for users to fill out the post for headache and pharmaceutical
@@ -68,16 +69,18 @@ function handleFormSubmit(event) {
 // }
 
 return(
-    <Container fluid>
+    <div>
+        <Navbar />
+            <Container fluid>
         <Row>
-            <AilmentForms/>
+          
             <Col size="md-4">
           
 
           </Col>
             <Col size="md-6">
                 <Jumbotron>
-                    <h1>Back problems treated without pharmaceuticals
+                    <h1>Backpain treated without pharmaceuticals
                     </h1>
                     <h2>Thank you for participating in the study</h2>
                 </Jumbotron>
@@ -110,6 +113,8 @@ return(
               </Col>
         </Row>
     </Container>
+    </div>
+    
 )
 
 

@@ -3,7 +3,7 @@ import { Col, Row, Container } from "../../Grid";
 import {Treatment, Age, ActivityLevel, UserStory, Source, FormBtn} from "./userForm.js"
 import API from "../../../utils/API";
 import Jumbotron from "../../Jumbotron";
-import AilmentForms from "../../dashboard/AilmentForms"
+import Navbar from "../../layout/NavbarLoggedIn"
 
 
 // component for users to fill out the post for headache and pharmaceutical
@@ -30,7 +30,7 @@ function handleInputChange(event){
 
 function handleFormSubmit(event) {
         
-    event.preventDefault();
+    
    
       API.postAilment({
           Ailment: "Joint-Pains",
@@ -45,6 +45,7 @@ function handleFormSubmit(event) {
         
       })
       console.log(formObject)
+      alert("thank you for your submission")
     
   };
 
@@ -68,44 +69,52 @@ function handleFormSubmit(event) {
 // }
 
 return(
-    <Container fluid>
-        <Row>
-            <AilmentForms/>
-            <Col size="md-6">
-                <Jumbotron>
+    <div>
+    <Navbar/>
+     <Container fluid>
+    <Row>
+
+        <Col size="md-4">
+      
+
+      </Col>
+        <Col size="md-6">
+        <Jumbotron>
                     <h1>Join Pains treated without pharmaceutical form
                     </h1>
                     <h2>Thank you for participating in the study</h2>
                 </Jumbotron>
-                <form>
-                    <Treatment
-                    onChange ={handleInputChange}
-                    name = "Treatment"/>
-                    <Age
-                    onChange ={handleInputChange}
-                    name = "Age"
-                    />
-                    <ActivityLevel
-                    onChange = {handleInputChange}
-                    name ="ActivityLevel"
-                    />
-                    <UserStory
-                    onChange ={handleInputChange}
-                    name ="Story"
-                    />
-                    <Source
-                    onChange ={handleInputChange}
-                    name ="Source"
-                    />
+            <form>
+                <Treatment
+                onChange ={handleInputChange}
+                name = "Treatment"/>
+                <Age
+                onChange ={handleInputChange}
+                name = "Age"
+                />
+                <ActivityLevel
+                onChange = {handleInputChange}
+                name ="ActivityLevel"
+                />
+                <UserStory
+                onChange ={handleInputChange}
+                name ="Story"
+                />
+                <Source
+                onChange ={handleInputChange}
+                name ="Source"
+                />
 
-                <FormBtn
-                onClick = {handleFormSubmit}>
-                    Submit
-                </FormBtn>
-                </form>
-              </Col>
-        </Row>
-    </Container>
+            <FormBtn
+            onClick = {handleFormSubmit}>
+                Submit
+            </FormBtn>
+            </form>
+          </Col>
+    </Row>
+</Container>
+</div>
+
 )
 
 

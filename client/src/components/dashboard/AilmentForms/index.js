@@ -9,7 +9,7 @@ function AilmentForms(Props){
     const toggle = () => setDropdownOpen(prevState => !prevState);
 
  
-    const [showText, setShowText] = useState(false);
+
 return(
     
     <div>
@@ -24,16 +24,17 @@ return(
       <Button><DropdownToggle caret>Menu
         </DropdownToggle>
         </Button>
+     
       <DropdownMenu>
-      
-      <DropdownItem> <Link to="/dashboard">Return to dashboard</Link></DropdownItem>  
+      <DropdownItem header><h3>Select a study to contribute</h3></DropdownItem>
+
         <DropdownItem header><h4>Alzheimers</h4></DropdownItem>
         <DropdownItem>       <Link to="/dashboard/Alzheimerspharmform">
          Pharmaceutical</Link></DropdownItem>
         <DropdownItem >       <Link to="/dashboard/Alzheimersnopharmform">
          Non-Pharmaceutical</Link></DropdownItem>
         <DropdownItem divider />
-        <DropdownItem header><h4>Back Problems</h4></DropdownItem>
+        <DropdownItem header><h4>Backpain</h4></DropdownItem>
         <DropdownItem>       <Link to="/dashboard/Backproblemspharmform">
          Pharmaceutical</Link></DropdownItem>
         <DropdownItem >       <Link to="/dashboard/Backproblemsnopharmform">
@@ -57,11 +58,6 @@ return(
         <DropdownItem >       <Link to="/dashboard/Jointpainsnopharmform">
          Non-Pharmaceutical</Link></DropdownItem>
         <DropdownItem divider />
-        <DropdownItem header><h4>Skin Disorders</h4></DropdownItem>
-        <DropdownItem>       <Link to="/dashboard/Skindisorderspharmform">
-         Pharmaceutical</Link></DropdownItem>
-        <DropdownItem >       <Link to="/dashboard/Skindisordersnopharmform">
-         Non-Pharmaceutical</Link></DropdownItem>
       </DropdownMenu>
     </Dropdown>
          </div>

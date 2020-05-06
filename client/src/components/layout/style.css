@@ -10,7 +10,7 @@ nav.navbar.navbar-default {
   font-size: 16px;
   line-height: 75px;
   border-radius: 25px;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 }
 
 .chip img {
@@ -21,8 +21,8 @@ nav.navbar.navbar-default {
   border-radius: 50%;
 }
 
-.container{
-  padding-top: 10%;
+.container-fluid{
+ background-color:  rgba(247, 215, 215, 0.05);;
 }
 
 .row{
@@ -36,12 +36,15 @@ nav.navbar.navbar-default {
   background-color: #bae3f0;
   border-style: groove;
   width: 400px;
+  margin-bottom: 5%;
 }
 
 body {
   font-family: 'Crimson Pro', serif;
   font-size: 48px;
+  
 }
+
 .heading {
   font-family: 'Crimson Pro', serif;
   font-size: 35px;
@@ -73,4 +76,24 @@ h5{
   margin-top: 10%;
   font-size: 35px;
   text-align: center;
+}
+
+.logoutBtn {
+ margin-left: 600%; 
+}
+
+.mediaContainer {
+  background-image: url("../../assets/img/hands2.png");
+}
+
+
+
+
+
+.bigBox{
+  /* background-image: url("../../assets/img/hands2.jpg"); */
+  opacity: 0.1;
+  z-index: -1
+
+
 }
