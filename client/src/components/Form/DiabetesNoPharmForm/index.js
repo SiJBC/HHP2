@@ -69,9 +69,11 @@ function handleFormSubmit(event) {
 // }
 
 return(
+    <div>
+            <Navbar/>
     <Container fluid>
         <Row>
-        <Navbar/>
+   
             <Col size="md-4">
           
 
@@ -111,6 +113,8 @@ return(
               </Col>
         </Row>
     </Container>
+    </div>
+    
 )
 
 

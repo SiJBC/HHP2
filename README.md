@@ -1,7 +1,6 @@
-# mern-auth
+Healthy Human Project
 
-![Final App](https://i.postimg.cc/tybZb8dL/final-MERNAuth.gif)
-Minimal full-stack MERN app with authentication using passport and JWTs.
+
 
 This project uses the following technologies:
 
@@ -9,8 +8,8 @@ This project uses the following technologies:
 - [Express](http://expressjs.com/) and [Node](https://nodejs.org/en/) for the backend
 - [MongoDB](https://www.mongodb.com/) for the database
 - [Redux](https://redux.js.org/basics/usagewithreact) for state management between React components
+ - [Reactjs.canvas https://canvasjs.com/react-charts/pie-chart/] for graph graphics
 
-## Medium Series
 
 - [Build a Login/Auth App with the MERN Stack — Part 1 (Backend)](https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669)
 - [Build a Login/Auth App with the MERN Stack — Part 2 (Frontend & Redux Setup)](https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-2-frontend-6eac4e38ee82)
@@ -31,12 +30,24 @@ module.exports = {
 
 ```javascript
 // Install dependencies for server & client
+
 npm install && npm run client-install
 
 // Run client & server with concurrently
 npm run dev
 
+//Run client testing
+In client directory
+npm start
+
+/Run server
+In root directory
+npm start
+
+
 // Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
 
-For deploying to Heroku, please refer to [this](https://www.youtube.com/watch?v=71wSzpLyW9k) helpful video by TraversyMedia.
+Deployed application at https://still-wildwood-06811.herokuapp.com/
+
+

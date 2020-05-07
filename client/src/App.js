@@ -8,14 +8,11 @@ import { setCurrentUser, logoutUser } from "./actions/authActions";
 import { Provider } from "react-redux";
 import store from "./store";
 
-import Navbar from "./components/layout/Navbar";
-import Footer from "./components/Footer"
 import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/dashboard/Dashboard";
-import Form from "./components/Form"
 import "./App.css";
 import HeadachePharmForm from "./components/Form/HeadachePharmForm"
 import HeadacheNoPharmForm from "./components/Form/HeadacheNoPharmForm"
@@ -33,7 +30,7 @@ import Backpain from "./components/Backpain"
 import Alzheimers from "./components/Alzheimers"
 import Diabetes from "./components/Diabetes"
 import JointPains from "./components/JointPains"
-import NavbarGeneral from "./components/layout/NavbarGeneral"
+
 
 
 
@@ -68,7 +65,6 @@ class App extends Component {
             <Route exact path="/" component={Landing} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
-            <Route exact path="/Form" component={Form} />
             <Route exact path="/headache" component={Headache} />
             <Route exact path="/backpain" component={Backpain} />
             <Route exact path="/alzheimers" component={Alzheimers} />
