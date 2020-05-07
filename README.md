@@ -47,7 +47,9 @@ npm start
 
 // Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
-user login details 123@123.com
+user login details 
+123@123.com
+123456
 Deployed application at https://still-wildwood-06811.herokuapp.com/
 
 user story 
