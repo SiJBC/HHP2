@@ -47,7 +47,27 @@ npm start
 
 // Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
-
+user login details 123@123.com
 Deployed application at https://still-wildwood-06811.herokuapp.com/
+
+user story 
+
+a user driven project to collect data regarding consumer treatments for common ailments and display the data in graphs.
+
+Homepage
+![alt text](https://github.com/SiJBC/HHP2/blob/master/client/public/assetts/img/Screen%20Shot%202020-05-07%20at%207.54.35%20pm.png)
+
+Ailments
+![alt text](https://github.com/SiJBC/HHP2/blob/master/client/public/assetts/img/ailments.jpg)
+
+Sample of graphs
+![alt text](https://github.com/SiJBC/HHP2/blob/master/client/public/assetts/img/barchart1.jpg)
+
+Project board of completed tasks
+![alt text](https://github.com/SiJBC/HHP2/blob/master/client/public/assetts/img/todocomplete.jpg)
+
+Wireframes and workflow
+![alt text](https://github.com/SiJBC/HHP2/blob/master/client/public/assetts/img/workflow.jpg)
+
 
 
